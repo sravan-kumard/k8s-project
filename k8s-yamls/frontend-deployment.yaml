@@ -35,7 +35,7 @@ spec:
     spec:                 
       containers: 
       - name: to-do-app-frontend 
-        image: kubernetesdemo/to-do-app-frontend # docker image of frontend application
+        image: azuredockerrajesh/front-end:#{Build.BuildId}# # docker image of frontend application
         env: # Setting Environmental Variables
           -  name: SERVER_URI # Setting Backend URI from configMap
              valueFrom:
