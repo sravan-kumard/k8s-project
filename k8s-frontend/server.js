@@ -1,4 +1,4 @@
-//Install express server to an exsisting command line interface
+//Install express server to an exsisting command line interface with in the cluster information
 const express = require('express');
 const path = require('path');
 
