@@ -1,4 +1,4 @@
-//Install express server
+//Install express server to an exsisting command line interface
 const express = require('express');
 const path = require('path');
 
