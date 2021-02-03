@@ -12,6 +12,7 @@
 	<artifactId>to-do-listEntity-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>to-do-listEntity-app</name>
+        <packaging>war</packaging>
 	<description>Demo project for GraphQL with Spring Boot</description>
 
 	<properties>
